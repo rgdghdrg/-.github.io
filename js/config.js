@@ -21,7 +21,7 @@ const CONFIG = {
 В блоге делюсь опытом, ошибками, победами и тем, что чувствуешь, когда бежишь один на один с картой и компасом.`,
 
   // Фото (положи своё в assets/ и поменяй путь)
-  photo: "assets/avatar.svg",
+  photo: "assets/avatar.jpg",
 
   // Email
   email: "art.ermolaev2005@gmail.com",
@@ -67,7 +67,7 @@ const CONFIG = {
     },
     {
       name: "VK",
-      url: "https://vk.com/yourusername",
+      url: "https://vk.ru/artoym_burunduk",
       icon: "vk"
     }
   ]

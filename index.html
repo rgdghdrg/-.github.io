@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Личная визитка ориентировщика, бегуна и блогера" />
+  <title>Визитка</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <div class="bg-grid"></div>
+
+  <div class="page">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <img id="avatar" class="avatar" src="assets/avatar.svg" alt="Фото" />
+          <div class="status-badge">В движении</div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> Личная визитка</div>
+        <h1 id="name">Имя</h1>
+        <p id="title" class="hero-title">Роль</p>
+        <p id="tagline" class="hero-tagline"></p>
+
+        <div class="hero-actions">
+          <a id="email-btn" class="btn btn-primary" href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Написать
+          </a>
+          <a href="#about" class="btn btn-ghost">Обо мне</a>
+        </div>
+
+        <div id="location" class="hero-meta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASSIONS -->
+    <section class="section">
+      <div class="section-header">
+        <h2>Чем живу</h2>
+        <p>Три вещи, которые определяют меня</p>
+      </div>
+      <div id="passions" class="passions-grid">
+        <!-- заполняется из config -->
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="about-block">
+        <div>
+          <div class="about-label">Обо мне</div>
+          <h2 id="about-heading">История в нескольких словах</h2>
+        </div>
+        <div id="about-text" class="about-text"></div>
+      </div>
+    </section>
+
+    <!-- SOCIALS -->
+    <section class="socials-section">
+      <h2>Где меня найти</h2>
+      <p>Подписывайся и пиши — всегда рад общению</p>
+      <div id="socials" class="socials"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>© <span id="year"></span> · Сделано с ❤️</div>
+      <div><a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a></div>
+    </footer>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

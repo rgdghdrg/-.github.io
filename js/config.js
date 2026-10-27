@@ -66,7 +66,7 @@ const CONFIG = {
       icon: "instagram"
     },
     {
-      name: "VK",
+      name: "ВК",
       url: "https://vk.ru/artoym_burunduk",
       icon: "vk"
     }
